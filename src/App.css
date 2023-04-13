@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+.loginScreen::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll{
+    padding-left:5rem;
+    padding-top:5rem;
+    background: linear-gradient(to right, #321461, #000000);
+}
+
+
+.nowplaying{
+    display: flex;
+    overflow: auto;
+    width:'95vw';
+}
+
+.nowplaying::-webkit-scrollbar {
+    display: none;
+  }
+
+.popular{
+    display: flex;
+    overflow: auto;
+    width:'95vw';
+}
+.popular::-webkit-scrollbar {
+    display: none;
+  }
+
+.toprated{
+    display: flex;
+    overflow: auto;
+    width:'95vw';
+}
+.toprated::-webkit-scrollbar {
+    display: none;
+  }
+
+.upcomming{
+    display: flex;
+    overflow: auto;
+    width:'95vw';
+}
+.upcomming::-webkit-scrollbar {
+    display: none;
+  }
+
+   .navbar-container-top {
+    width: 100%;
+  }
+  
+  .navbar-container-left {
+    width: 80px;
+    height: 100%;
+    background-color: orange;
+    position: fixed;
+    top: 70px;
+    left: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 1.5rem;
+  }
+  
+  .navbar__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar__item:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .navbar__item p {
+    margin-top: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  
+  .scrollable{
+    overflow:auto;
+    width: 90%;
+  }
+
+  .scrollable::-webkit-scrollbar {
+    display: none;
+  }
+
+  .moviejsx{
+    background-image: radial-gradient( circle farthest-corner at 50.7% 54%,  rgba(204,254,152,1) 0%, rgba(229,253,190,1) 92.4% );
+  }
+
+  .allReviewsScreen{
+    padding: 1rem 1rem 1rem 5rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
